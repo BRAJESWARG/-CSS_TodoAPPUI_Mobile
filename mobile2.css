@@ -1,0 +1,49 @@
+@media screen and (min-width: 420px) and (max-width: 768px){
+    .main{
+        display: flex;
+        justify-content: center;
+         flex-direction: column;
+         height: 100%;
+         width: 90%;
+         margin: 5%;
+         flex-flow: column wrap;
+    }
+    .hr{
+        display: none;
+    }
+    .back{
+        position: relative;
+        bottom: 100px;
+        right: 220px;
+    }
+    .back2{
+        display: none;
+    }
+   
+}
+@media screen and (min-width: 320px) and (max-width: 420px){
+    .main{
+        display: flex;
+        justify-content: center;
+         flex-direction: column;
+         height: 100%;
+         width: 90%;
+         margin: 5%;
+         flex-flow: column wrap;
+    }
+    .tasks{
+        font-size: 35px;
+    }
+    .hr{
+        display: none;
+    }
+    .back{
+        position: relative;
+        bottom: 112px;
+        right: 128px;
+    }
+    .back2{
+        display: none;
+    }
+   
+}

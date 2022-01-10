@@ -1,0 +1,41 @@
+@media screen and (max-width: 320px){
+    .addnewlist{
+        border: 3px solid tomato;
+        font-size: 35px;
+        text-align: center;
+        color: tomato;
+        background-color: white;
+        border-radius: 10px;
+        position: absolute;
+        top: 33vh;
+        left: 20vw;
+        height: 50PX;
+        width: 100px;
+        line-height: 30px; 
+        box-shadow: 8px 8px 8px lightgray;
+    }
+    .add{
+        font-size: 30px;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+    }
+    
+    .blank{
+        border: 1.5px solid tomato;
+        box-shadow: 2px 2px 2px lightgray;
+        transform: scale(1.2);
+        border-radius: 5PX;
+        margin-top: 100%;
+    }
+    .addtab{
+        color: white;
+        background-color: tomato;
+        border: none;
+        border-radius: 20px;
+        transform: scale(1.5);
+        padding: 6px 18px;
+        margin-top: 40px;
+        cursor: pointer;
+    }
+}
