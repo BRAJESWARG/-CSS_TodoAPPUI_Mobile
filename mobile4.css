@@ -1,0 +1,17 @@
+@media screen and (max-width: 320px){
+    .addnewitem{
+        border: 3px solid tomato;
+        font-size: 35px;
+        text-align: center;
+        color: tomato;
+        background-color: white;
+        border-radius: 10px;
+        position: absolute;
+        top: 33vh;
+        left: -20vw;
+        height: 220PX;
+        width: 450px;
+        line-height: 30px;
+        box-shadow: 8px 8px 8px lightgray;
+    }
+}
